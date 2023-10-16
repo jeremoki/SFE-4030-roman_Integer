@@ -43,13 +43,13 @@ test_cases = [
 
     ("III", 3),
 
-# iNvalid
+# invalid
     ("Z", "Error"),
 # Invalid and Valid Letters
 
 ("XIZ", "Error"),
 
-# Not Valid
+# Not valid
 
     ("VV", "Error"),
 # Null input
@@ -58,7 +58,7 @@ test_cases = [
 
 ]
 
-# Run the test cases and validate the results
+
 for roman_numeral, expected_result in test_cases:
     result = roman_to_integer(roman_numeral)
     print(f"The integer equivalent of {roman_numeral} is {result}. Expected: {expected_result}")
